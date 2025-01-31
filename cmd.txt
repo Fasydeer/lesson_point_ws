@@ -1,3 +1,3 @@
- roslaunch vrpn_client_ros sample.launch server:=10.1.1.198
- sudo date -s "2025-01-07 23:48:00"
- roslaunch px4ctrl cmd.launch 
+roslaunch vrpn_client_ros sample.launch server:=10.1.1.198
+sudo date -s "2025-01-07 23:48:00"
+roslaunch px4ctrl cmd.launch 
