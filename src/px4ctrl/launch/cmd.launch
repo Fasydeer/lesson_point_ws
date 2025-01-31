@@ -1,0 +1,5 @@
+<launch>	
+    <node pkg="px4ctrl" type="cmd_pub_airs" name="cmd_pub_airs" output="screen">
+     <rosparam command="load" file="$(find px4ctrl)/config/waypoints.yaml" />
+	</node>
+</launch>
